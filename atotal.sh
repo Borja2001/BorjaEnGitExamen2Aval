@@ -1,3 +1,4 @@
+#!/bin/bash 
 numLin=$((`cat consumos.txt | wc -l`+1))
 consumo=0
 while [ $consumo -eq 0 ]
