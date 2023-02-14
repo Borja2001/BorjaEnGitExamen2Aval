@@ -15,4 +15,4 @@ do
 done
 media=$(($consumo/$num))
 #echo $media
-return $media
+echo $media >> media.txt

@@ -1,3 +1,4 @@
+#!/bin/bash 
 numLin=$((`cat consumos.txt | wc -l`+1))
 linMax=1
 linMin=1
