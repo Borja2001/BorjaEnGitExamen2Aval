@@ -15,4 +15,5 @@ do
 done
 media=$(($consumo/$num))
 #echo $media
+`rm media.txt`
 echo $media >> media.txt
